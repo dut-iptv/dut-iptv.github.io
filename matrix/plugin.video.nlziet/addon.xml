@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.nlziet" name="NLZiet" provider-name="Anon" version="0.9.92+matrix.1">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="inputstream.adaptive" version="2.4.4"/>
+    <import addon="script.module.fuzzywuzzy" version="0.17.0"/>
+    <import addon="script.module.pycryptodome" version="3.4.3"/>
+    <import addon="script.module.pytz" version="2014.2"/>
+    <import addon="script.module.requests" version="2.22.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.service" library="service.py"/>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Watch (Live) TV and content from NLZiet (Netherlands)</summary>
+    <summary lang="nl_NL">Bekijk (Live) TV en content van NLZiet (Nederland)</summary>
+    <description lang="en_GB">Watch (Live) TV and content from NLZiet (Netherlands). Subscription required.</description>
+    <description lang="nl_NL">Bekijk (Live) TV en content van NLZiet (Nederland). Abonnement vereist.</description>
+    <reuselanguageinvoker>true</reuselanguageinvoker>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>

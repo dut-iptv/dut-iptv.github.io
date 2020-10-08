@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.zomboided.plugins" name="Zomboided Add-on Repository" version="1.0.0" provider-name="zomboided">
+  <extension point="xbmc.addon.repository" name="Zomboided Add-on Repository">
+    <info>https://raw.githubusercontent.com/zomboided/xbmc.zomboided.plugins/master/addons.xml</info>
+    <checksum>https://raw.githubusercontent.com/zomboided/xbmc.zomboided.plugins/master/addons.xml.md5</checksum>
+    <datadir zip="true">https://github.com/zomboided/xbmc.zomboided.plugins/raw/master/plugins/</datadir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Install add-ons from Zomboided repository</summary>
+    <description lang="en">Add-ons for Kodi</description>
+  </extension>
+</addon>

@@ -1,0 +1,18 @@
+from resources.lib.base.language import BaseLanguage
+
+class Language(BaseLanguage):
+    SERIES = 30010
+    MOVIES = 30011
+    HBO_SERIES = 30025
+    HBO_MOVIES = 30026
+    KIDS_SERIES = 30027
+    SHOWMOVIESSERIES = 30028
+    KIDS_MOVIES = 30029
+    SEASON = 30031
+    CHECKED_ENTITLEMENTS = 32053    
+    NO_MOVIES_SERIES = 32060
+    YES_MOVIES_SERIES = 32061
+    CHECK_ENTITLEMENTS = 32070
+    START_FROM_BEGINNING = 32093
+
+_ = Language()

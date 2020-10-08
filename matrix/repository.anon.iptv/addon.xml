@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="repository.anon.iptv" name="Dutch IPTV Repository" version="1.1.0" provider-name="Anon">
+  <requires>
+    <import addon="xbmc.addon" version="12.0.0"/>
+  </requires>
+  <extension point="xbmc.addon.repository" name="Dutch IPTV Repository">
+    <dir minversion="17.9.0">
+      <info compressed="false">https://dut-iptv.github.io/leia/addons.xml</info>
+      <checksum>https://dut-iptv.github.io/leia/addons.xml.md5</checksum>
+      <datadir zip="true">https://dut-iptv.github.io/leia/</datadir>
+      <hashes>false</hashes>
+      <artdir>https://dut-iptv.github.io/leia/</artdir>
+    </dir>
+    <dir minversion="18.0.0">
+      <info compressed="false">https://dut-iptv.github.io/leia/addons.xml</info>
+      <checksum>https://dut-iptv.github.io/leia/addons.xml.md5</checksum>
+      <datadir zip="true">https://dut-iptv.github.io/leia/</datadir>
+      <hashes>false</hashes>
+      <artdir>https://dut-iptv.github.io/leia/</artdir>
+    </dir>
+    <dir minversion="18.9.0">
+      <info compressed="false">https://dut-iptv.github.io/matrix/addons.xml</info>
+      <checksum>https://dut-iptv.github.io/matrix/addons.xml.md5</checksum>
+      <datadir zip="true">https://dut-iptv.github.io/matrix/</datadir>
+      <hashes>false</hashes>
+      <artdir>https://dut-iptv.github.io/matrix/</artdir>
+    </dir>
+    <dir minversion="19.0.0">
+      <info compressed="false">https://dut-iptv.github.io/matrix/addons.xml</info>
+      <checksum>https://dut-iptv.github.io/matrix/addons.xml.md5</checksum>
+      <datadir zip="true">https://dut-iptv.github.io/matrix/</datadir>
+      <hashes>false</hashes>
+      <artdir>https://dut-iptv.github.io/matrix/</artdir>
+    </dir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Dutch IPTV (NLZiet, KPN, Telfort, T-Mobile, XS4All, Ziggo) repository</summary>
+    <description lang="en">Dutch IPTV (NLZiet, KPN, Telfort, T-Mobile, XS4All, Ziggo) repository</description>
+    <summary lang="nl">Repository voor Nederlandse IPTV (NLZiet, KPN, Telfort, T-Mobile, XS4All, Ziggo)</summary>
+    <description lang="nl">Repository voor Nederlandse IPTV (NLZiet, KPN, Telfort, T-Mobile, XS4All, Ziggo)</description>
+    <platform>all</platform>
+  </extension>
+</addon>

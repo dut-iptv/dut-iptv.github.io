@@ -1,0 +1,445 @@
+# KODI Media Center language file
+# Addon Name: NLZiet
+# Addon id: plugin.video.nlziet
+# Addon Provider: Anon
+msgid ""
+msgstr ""
+"Project-Id-Version:\n"
+"Report-Msgid-Bugs-To:\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator:\n"
+"Language-Team:\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: nl_NL\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "#30001"
+msgid "NLZiet E-mailaccount"
+msgstr "NLZiet E-mailadres"
+
+msgctxt "#30002"
+msgid "NLZiet password"
+msgstr "NLZiet wachtwoord"
+
+msgctxt "#30003"
+msgid "Auto setup IPTV"
+msgstr "Automatisch IPTV Instellen"
+
+msgctxt "#30005"
+msgid "Auto setup Kodi Language/PVR"
+msgstr "Automatisch Kodi Taal/PVR Instellen"
+
+msgctxt "#30007"
+msgid "Live TV"
+msgstr "Live TV"
+
+msgctxt "#30010"
+msgid "All programs"
+msgstr "Alle programma's"
+
+msgctxt "#30011"
+msgid "Movies"
+msgstr "Films"
+
+msgctxt "#30017"
+msgid "Save password"
+msgstr "Wachtwoord opslaan"
+
+msgctxt "#30021"
+msgid "Next Page"
+msgstr "Volgende pagina"
+
+msgctxt "#30024"
+msgid "Replay TV"
+msgstr "Replay TV"
+
+msgctxt "#30028"
+msgid "Show Video On Demand (VOD)"
+msgstr "Toon Video On Demand (VOD)"
+
+msgctxt "#30031"
+msgid "Season"
+msgstr "Seizoen"
+
+msgctxt "#30032"
+msgid "Load only default channels"
+msgstr "Alleen standaard zenders laden"
+
+msgctxt "#30033"
+msgid "Error Logging in to NLZiet"
+msgstr "Fout bij het inloggen bij NLZiet"
+
+msgctxt "#30034"
+msgid "Check your account E-mail and password"
+msgstr "Controleer je E-mailadres en wachtwoord"
+
+msgctxt "#30035"
+msgid "Account E-mail can't be empty"
+msgstr "E-mailadres mag niet leeg zijn"
+
+msgctxt "#30036"
+msgid "Password can't be empty"
+msgstr "Wachtwoord mag niet leeg zijn"
+
+msgctxt "#32000"
+msgid "You need to login to access this content"
+msgstr "Je moet inloggen om toegang tot deze content te krijgen"
+
+msgctxt "#32001"
+msgid "No default route found"
+msgstr "Geen standaard route gevonden"
+
+msgctxt "#32002"
+msgid "Are you sure you want to reset this add-on?\n"
+"This will reset all settings and clear all data"
+msgstr "Weet je zeker dat je deze add-on wil resetten?\n"
+"Dit zal alle instellen resetten en alle data legen"
+
+msgctxt "#32003"
+msgid "Reset Complete"
+msgstr "Reset geslaagd"
+
+msgctxt "#32006"
+msgid "Could not find a function for url: {raw_url} => {parsed_url}"
+msgstr "Kon geen functie vinden voor url: {raw_url} => {parsed_url}"
+
+msgctxt "#32007"
+msgid "Could not find a url for function: {function_name}"
+msgstr "Kon geen url vinden voor functie: {function_name}"
+
+msgctxt "#32008"
+msgid "Inpustream Adaptive add-on required for Widevine playback"
+msgstr "Inpustream Adaptive add-on is vereist voor het afspelen van Widevine"
+
+msgctxt "#32009"
+msgid "Kodi Windows Store (UWP) version does not support Widevine playback.\n"
+"Use the Kodi .exe installer from the Kodi website instead."
+msgstr "Kodi Windows Store (UWP) versie ondersteunt het afspelen van Widevine niet.\n"
+"Gebruik het Kodi .exe installatiebestand van de Kodi website."
+
+msgctxt "#32010"
+msgid "Kodi 18 or higher required for Widevine playback on {system}"
+msgstr "Kodi 18 of nieuwer is vereist voor het afspelen van Widevine op {system}"
+
+msgctxt "#32011"
+msgid "ARM 64bit does not support Widevine playback\n"
+"An OS with a 32-bit userspace is required.\n"
+"Try coreelec.org"
+msgstr "ARM 64bit ondersteunt het afspelen van Widevine niet\n"
+"Een besturingssysteem met een 32-bit userspace is vereist.\n"
+"Probeer coreelec.org"
+
+msgctxt "#32012"
+msgid "This system ({system}{arch} Kodi v{kodi_version}) does not yet support Widevine playback"
+msgstr "Dit systeem ({system}{arch} Kodi v{kodi_version}) ondersteunt het afspelen van Widevine niet"
+
+msgctxt "#32014"
+msgid "Downloading required file\n"
+"{url}"
+msgstr "Downloaden van vereist bestand\n"
+"{url}"
+
+msgctxt "#32015"
+msgid "Widevine CDM"
+msgstr "Widevine CDM"
+
+msgctxt "#32016"
+msgid "There was an unexpected error installing the Widevine CDM\n"
+"Please restart KODI and try again"
+msgstr "Er was een onverwachte fout bij het installeren van Widevine CDM\n"
+"Herstart KODI en probeer het opnieuw"
+
+msgctxt "#32019"
+msgid "Reset Add-on"
+msgstr "Reset Add-on"
+
+msgctxt "#32020"
+msgid "{addon} - Error"
+msgstr "{addon} - Fout"
+
+msgctxt "#32021"
+msgid "Install Widevine CDM"
+msgstr "Installeer Widevine CDM"
+
+msgctxt "#32022"
+msgid "Widevine CDM Installed OK\n"
+"If videos do not play, please restart KODI and try again"
+msgstr "Widevine CDM Succesvol geinstalleerd\n"
+"Als videos niet afspelen, herstart KODI en probeer het opnieuw"
+
+msgctxt "#32024"
+msgid "Login"
+msgstr "Inloggen"
+
+msgctxt "#32025"
+msgid "Logout"
+msgstr "Uitloggen"
+
+msgctxt "#32026"
+msgid "Settings"
+msgstr "Instellingen"
+
+msgctxt "#32027"
+msgid "Are you sure you want to logout?"
+msgstr "Weet je zeker dat je wil uitloggen?"
+
+msgctxt "#32029"
+msgid "Search"
+msgstr "Zoeken"
+
+msgctxt "#32030"
+msgid "Search: {query}"
+msgstr "Zoeken: {query}"
+
+msgctxt "#32032"
+msgid "{addon} - Unexpected Error"
+msgstr "{addon} - Onverwachte fout"
+
+msgctxt "#32033"
+msgid "Failed to download required file: {filename}"
+msgstr "Downloaden van vereist bestand mislukt: {filename}"
+
+msgctxt "#32034"
+msgid "General"
+msgstr "Algemeen"
+
+msgctxt "#32038"
+msgid "New Widevine CDM available!\n"
+"Using an old version may cause playback issues\n"
+"Download and override existing CDM?"
+msgstr "Nieuwe Widevine CDM beschikbaar!\n"
+"Een oude versie gebruiken kan probelem met het afspelen veroorzaken\n"
+"Downloaden en overschrijven van de bestaande CDM?"
+
+msgctxt "#32040"
+msgid "MD5 checksum failed for file: {filename}\n"
+"{local_md5} != {remote_md5}"
+msgstr "MD5 checksum mislukt voor bestand: {filename}\n"
+"{local_md5} != {remote_md5}"
+
+msgctxt "#32041"
+msgid "No Items"
+msgstr "Geen items"
+
+msgctxt "#32052"
+msgid "Unknown Error"
+msgstr "Onbekende fout"
+
+msgctxt "#32054"
+msgid "Error playing item"
+msgstr "Fout bij afspelen"
+
+msgctxt "#32055"
+msgid "Error accessing stream, maybe your account is not authorized"
+msgstr "Fout bij verkijgen toegang tot stream, mogelijk heb je geen authorisatie"
+
+msgctxt "#32056"
+msgid "No ReplayTV information available"
+msgstr "Geen ReplayTV informatie beschikbaar"
+
+msgctxt "#32057"
+msgid "Disable the \"Only load standard channels\" setting to retrieve the data for this channel (in the next 24h)"
+msgstr "Schakel de optie \"Alleen standaard zenders laden\" uit om de data van deze zender (binnen 24u) op te halen"
+
+msgctxt "#32058"
+msgid "Stream not found"
+msgstr "Stream niet gevonden"
+
+msgctxt "#32059"
+msgid "Stream for this program is not (yet) available"
+msgstr "Stream voor dit programma is (nog) niet beschikbaar"
+
+msgctxt "#32063"
+msgid "Done, reboot required"
+msgstr "Klaar, herstart vereist"
+
+msgctxt "#32064"
+msgid "Programs A-Z"
+msgstr "Programma's A-Z"
+
+msgctxt "#32065"
+msgid "Programs sorted by begin letter"
+msgstr "Programma's gesorteerd naar begin letter"
+
+msgctxt "#32066"
+msgid "Other titles (0-9, special characters)"
+msgstr "Overige titels (0-9, speciale tekens)"
+
+msgctxt "#32067"
+msgid "Titles with "
+msgstr "Titels met "
+
+msgctxt "#32068"
+msgid "Programs beginning with a number or special character"
+msgstr "Programma's beginnend met een cijfer of speciale tekens"
+
+msgctxt "#32069"
+msgid "Programs beginning with "
+msgstr "Programma's beginnend met "
+
+msgctxt "#32071"
+msgid "Done"
+msgstr "Klaar"
+
+msgctxt "#32072"
+msgid "Force EPG download"
+msgstr "EPG download forceren"
+
+msgctxt "#32073"
+msgid "Force settings download"
+msgstr "Instellingen download forceren"
+
+msgctxt "#32074"
+msgid "Search"
+msgstr "Zoeken"
+
+msgctxt "#32075"
+msgid "New Search"
+msgstr "Nieuwe zoekterm"
+
+msgctxt "#32076"
+msgid "Start a new search"
+msgstr "Begin een nieuwe zoekactie"
+
+msgctxt "#32079"
+msgid "Today"
+msgstr "Vandaag"
+
+msgctxt "#32080"
+msgid "Yesterday"
+msgstr "Gister"
+
+msgctxt "#32081"
+msgid "Live TV points to Simple IPTV PVR"
+msgstr "Live TV verwijst naar Simple IPTV PVR"
+
+msgctxt "#32082"
+msgid "Reset Session"
+msgstr "Sessie resetten"
+
+msgctxt "#32083"
+msgid "Add to Watchlist"
+msgstr "Toevoegen aan Watchlist"
+
+msgctxt "#32084"
+msgid "Remove from Watchlist"
+msgstr "Verwijderen van Watchlist"
+
+msgctxt "#32085"
+msgid "Watchlist"
+msgstr "Watchlist"
+
+msgctxt "#32086"
+msgid "Added to Watchlist"
+msgstr "Toegevoegd aan Watchlist"
+
+msgctxt "#32087"
+msgid "Add to Watchlist failed"
+msgstr "Toevoegen aan Watchlist mislukt"
+
+msgctxt "#32088"
+msgid "Removed from Watchlist"
+msgstr "Verwijderd uit Watchlist"
+
+msgctxt "#32089"
+msgid "Remove from Watchlist failed"
+msgstr "Verwijderen uit Watchlist mislukt"
+
+msgctxt "#32090"
+msgid "Enable Radio in Simple IPTV"
+msgstr "Radio in Simple IPTV inschakelen"
+
+msgctxt "#32091"
+msgid "Disable subtitles by default"
+msgstr "Ondertiteling standaard uitschakelen"
+
+msgctxt "#32092"
+msgid "Seconds to add at the end of streams"
+msgstr "Aantal seconden om toe te voegen aan het eind van streams"
+
+msgctxt "#32093"
+msgid "Start from the beginning?"
+msgstr "Vanaf het begin starten?"
+
+msgctxt "#32094"
+msgid "You have too many devices in use"
+msgstr "Je hebt teveel apparaten in gebruik"
+
+msgctxt "#32095"
+msgid "Watch ahead"
+msgstr "Vooruitkijken"
+
+msgctxt "#32096"
+msgid "Recommended"
+msgstr "Aanbevolen"
+
+msgctxt "#32097"
+msgid "Series"
+msgstr "Series"
+
+msgctxt "#32098"
+msgid "Most viewed"
+msgstr "Meest bekeken"
+
+msgctxt "#32099"
+msgid "Enable cache"
+msgstr "Cache inschakelen"
+
+msgctxt "#32101"
+msgid "Force maximum resolution"
+msgstr "Forceer maximale resolutie"
+
+msgctxt "#32102"
+msgid "Enable Debug Mode"
+msgstr "Debug mode inschakelen"
+
+msgctxt "#32103"
+msgid "Ask to start stream from beginning (if available)"
+msgstr "Vraag om stream vanaf begin te starten (indien beschikbaar)"
+
+msgctxt "#320104"
+msgid "Channel selection"
+msgstr "Zender selectie"
+
+msgctxt "#320105"
+msgid "Successfully tested"
+msgstr "Succesvol getest"
+
+msgctxt "#320106"
+msgid "Not successfully tested"
+msgstr "Niet succesvol getest"
+
+msgctxt "#320107"
+msgid "Not yet tested"
+msgstr "Nog niet getest"
+
+msgctxt "#320108"
+msgid "updates automatically based on testing"
+msgstr "update automatisch op basis van tests"
+
+msgctxt "#320109"
+msgid "updates manually"
+msgstr "update handmatig"
+
+msgctxt "#320110"
+msgid "Electronic Programming Guide (EPG, TV menu)"
+msgstr "Elektronische Programma Gids (EPG, TV menu)"
+
+msgctxt "#32111"
+msgid "Test channel availability and bandwidth"
+msgstr "Beschikbaarheid en bandbreedte van kanalen testen"
+
+msgctxt "#320112"
+msgid "Automatically set enabled/disabled based on testing"
+msgstr "Automatisch inschakelen/uitschakelen gebasseerd op tests"
+
+msgctxt "#320113"
+msgid "Test channel"
+msgstr "Test zender"
+
+msgctxt "#320114"
+msgid "Start from beginning (if available)"
+msgstr "Vanaf begin starten (indien beschikbaar)"

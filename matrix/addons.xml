@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+  <addon id="script.module.fuzzywuzzy" name="fuzzywuzzy" provider-name="SeetGeek" version="0.17.0+matrix.1">
+    <requires>
+      <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension library="lib" point="xbmc.python.module"/>
+    <extension point="xbmc.addon.metadata">
+      <description lang="en">Packed for KODI from https://github.com/seatgeek/fuzzywuzzy</description>
+      <summary lang="en">python fuzzywuzzy module</summary>
+      <license>GPLv2</license>
+      <platform>all</platform>
+      <email/>
+      <website>https://chairnerd.seatgeek.com/fuzzywuzzy-fuzzy-string-matching-in-python/</website>
+      <forum/>
+      <source>https://github.com/seatgeek/fuzzywuzzy</source>
+      <language/>
+    </extension>
+  </addon>
+  <addon id="repository.zomboided.plugins" name="Zomboided Add-on Repository" version="1.0.0" provider-name="zomboided">
+    <extension point="xbmc.addon.repository" name="Zomboided Add-on Repository">
+      <info>https://raw.githubusercontent.com/zomboided/xbmc.zomboided.plugins/master/addons.xml</info>
+      <checksum>https://raw.githubusercontent.com/zomboided/xbmc.zomboided.plugins/master/addons.xml.md5</checksum>
+      <datadir zip="true">https://github.com/zomboided/xbmc.zomboided.plugins/raw/master/plugins/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+      <platform>all</platform>
+      <summary lang="en">Install add-ons from Zomboided repository</summary>
+      <description lang="en">Add-ons for Kodi</description>
+    </extension>
+  </addon>
+  <addon id="plugin.video.tmobile" name="T-Mobile Anywhere" provider-name="Anon" version="0.9.92+matrix.1">
+    <requires>
+      <import addon="xbmc.python" version="3.0.0"/>
+      <import addon="inputstream.adaptive" version="2.4.4"/>
+      <import addon="script.module.fuzzywuzzy" version="0.17.0"/>
+      <import addon="script.module.pycryptodome" version="3.4.3"/>
+      <import addon="script.module.pytz" version="2014.2"/>
+      <import addon="script.module.requests" version="2.22.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+      <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py"/>
+    <extension point="xbmc.addon.metadata">
+      <summary lang="en_GB">Watch (Live) TV and content from T-Mobile Anywhere (Netherlands)</summary>
+      <summary lang="nl_NL">Bekijk (Live) TV en content van T-Mobile Anywhere (Nederland)</summary>
+      <description lang="en_GB">Watch (Live) TV and content from T-Mobile Anywhere (Netherlands). Subscription required.</description>
+      <description lang="nl_NL">Bekijk (Live) TV en content van T-Mobile Anywhere (Nederland). Abonnement vereist.</description>
+      <reuselanguageinvoker>true</reuselanguageinvoker>
+      <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+      </assets>
+    </extension>
+  </addon>
+  <addon id="plugin.video.nlziet" name="NLZiet" provider-name="Anon" version="0.9.92+matrix.1">
+    <requires>
+      <import addon="xbmc.python" version="3.0.0"/>
+      <import addon="inputstream.adaptive" version="2.4.4"/>
+      <import addon="script.module.fuzzywuzzy" version="0.17.0"/>
+      <import addon="script.module.pycryptodome" version="3.4.3"/>
+      <import addon="script.module.pytz" version="2014.2"/>
+      <import addon="script.module.requests" version="2.22.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+      <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py"/>
+    <extension point="xbmc.addon.metadata">
+      <summary lang="en_GB">Watch (Live) TV and content from NLZiet (Netherlands)</summary>
+      <summary lang="nl_NL">Bekijk (Live) TV en content van NLZiet (Nederland)</summary>
+      <description lang="en_GB">Watch (Live) TV and content from NLZiet (Netherlands). Subscription required.</description>
+      <description lang="nl_NL">Bekijk (Live) TV en content van NLZiet (Nederland). Abonnement vereist.</description>
+      <reuselanguageinvoker>true</reuselanguageinvoker>
+      <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+      </assets>
+    </extension>
+  </addon>
+  <addon id="repository.anon.iptv" name="Dutch IPTV Repository" version="1.1.0" provider-name="Anon">
+    <requires>
+      <import addon="xbmc.addon" version="12.0.0"/>
+    </requires>
+    <extension point="xbmc.addon.repository" name="Dutch IPTV Repository">
+      <dir minversion="17.9.0">
+        <info compressed="false">https://dut-iptv.github.io/leia/addons.xml</info>
+        <checksum>https://dut-iptv.github.io/leia/addons.xml.md5</checksum>
+        <datadir zip="true">https://dut-iptv.github.io/leia/</datadir>
+        <hashes>false</hashes>
+        <artdir>https://dut-iptv.github.io/leia/</artdir>
+      </dir>
+      <dir minversion="18.0.0">
+        <info compressed="false">https://dut-iptv.github.io/leia/addons.xml</info>
+        <checksum>https://dut-iptv.github.io/leia/addons.xml.md5</checksum>
+        <datadir zip="true">https://dut-iptv.github.io/leia/</datadir>
+        <hashes>false</hashes>
+        <artdir>https://dut-iptv.github.io/leia/</artdir>
+      </dir>
+      <dir minversion="18.9.0">
+        <info compressed="false">https://dut-iptv.github.io/matrix/addons.xml</info>
+        <checksum>https://dut-iptv.github.io/matrix/addons.xml.md5</checksum>
+        <datadir zip="true">https://dut-iptv.github.io/matrix/</datadir>
+        <hashes>false</hashes>
+        <artdir>https://dut-iptv.github.io/matrix/</artdir>
+      </dir>
+      <dir minversion="19.0.0">
+        <info compressed="false">https://dut-iptv.github.io/matrix/addons.xml</info>
+        <checksum>https://dut-iptv.github.io/matrix/addons.xml.md5</checksum>
+        <datadir zip="true">https://dut-iptv.github.io/matrix/</datadir>
+        <hashes>false</hashes>
+        <artdir>https://dut-iptv.github.io/matrix/</artdir>
+      </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+      <summary lang="en">Dutch IPTV (NLZiet, KPN, Telfort, T-Mobile, XS4All, Ziggo) repository</summary>
+      <description lang="en">Dutch IPTV (NLZiet, KPN, Telfort, T-Mobile, XS4All, Ziggo) repository</description>
+      <summary lang="nl">Repository voor Nederlandse IPTV (NLZiet, KPN, Telfort, T-Mobile, XS4All, Ziggo)</summary>
+      <description lang="nl">Repository voor Nederlandse IPTV (NLZiet, KPN, Telfort, T-Mobile, XS4All, Ziggo)</description>
+      <platform>all</platform>
+    </extension>
+  </addon>
+  <addon id="plugin.video.canaldigitaal" name="Canal Digitaal IPTV" provider-name="Anon" version="0.9.95+matrix.1">
+    <requires>
+      <import addon="xbmc.python" version="3.0.0"/>
+      <import addon="inputstream.adaptive" version="2.4.4"/>
+      <import addon="script.module.fuzzywuzzy" version="0.17.0"/>
+      <import addon="script.module.pycryptodome" version="3.4.3"/>
+      <import addon="script.module.pytz" version="2014.2"/>
+      <import addon="script.module.requests" version="2.22.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+      <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py"/>
+    <extension point="xbmc.addon.metadata">
+      <summary lang="en_GB">Watch (Live) TV and content from Canal Digitaal IPTV (Netherlands)</summary>
+      <summary lang="nl_NL">Bekijk (Live) TV en content van Canal Digitaal IPTV (Nederland)</summary>
+      <description lang="en_GB">Watch (Live) TV and content from Canal Digitaal IPTV (Netherlands). Subscription required.</description>
+      <description lang="nl_NL">Bekijk (Live) TV en content van Canal Digitaal IPTV (Nederland). Abonnement vereist.</description>
+      <reuselanguageinvoker>true</reuselanguageinvoker>
+      <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+      </assets>
+    </extension>
+  </addon>
+  <addon id="plugin.video.ziggo" name="Ziggo GO" provider-name="Anon" version="0.9.92+matrix.1">
+    <requires>
+      <import addon="xbmc.python" version="3.0.0"/>
+      <import addon="inputstream.adaptive" version="2.4.4"/>
+      <import addon="script.module.fuzzywuzzy" version="0.17.0"/>
+      <import addon="script.module.pycryptodome" version="3.4.3"/>
+      <import addon="script.module.pytz" version="2014.2"/>
+      <import addon="script.module.requests" version="2.22.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+      <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py"/>
+    <extension point="xbmc.addon.metadata">
+      <summary lang="en_GB">Watch (Live) TV and content from Ziggo GO (Netherlands)</summary>
+      <summary lang="nl_NL">Bekijk (Live) TV en content van Ziggo GO (Nederland)</summary>
+      <description lang="en_GB">Watch (Live) TV and content from Ziggo GO (Netherlands). Subscription required.</description>
+      <description lang="nl_NL">Bekijk (Live) TV en content van Ziggo GO (Nederland). Abonnement vereist.</description>
+      <reuselanguageinvoker>true</reuselanguageinvoker>
+      <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+      </assets>
+    </extension>
+  </addon>
+  <addon id="plugin.video.kpn" name="KPN ITV" provider-name="Anon" version="0.9.97+matrix.1">
+    <requires>
+      <import addon="xbmc.python" version="3.0.0"/>
+      <import addon="inputstream.adaptive" version="2.4.4"/>
+      <import addon="script.module.fuzzywuzzy" version="0.17.0"/>
+      <import addon="script.module.pycryptodome" version="3.4.3"/>
+      <import addon="script.module.pytz" version="2014.2"/>
+      <import addon="script.module.requests" version="2.22.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+      <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py"/>
+    <extension point="xbmc.addon.metadata">
+      <summary lang="en_GB">Watch (Live) TV and content from KPN/Telfort/XS4ALL Interactive TV (Netherlands)</summary>
+      <summary lang="nl_NL">Bekijk (Live) TV en content van KPN/Telfort/XS4ALL Interactieve TV (Nederland)</summary>
+      <description lang="en_GB">Watch (Live) TV and content from KPN/Telfort/XS4ALL Interactive TV (Netherlands). Subscription required.</description>
+      <description lang="nl_NL">Bekijk (Live) TV en content van KPN/Telfort/XS4ALL Interactieve TV (Nederland). Abonnement vereist.</description>
+      <reuselanguageinvoker>true</reuselanguageinvoker>
+      <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+      </assets>
+    </extension>
+  </addon>
+</addons>
