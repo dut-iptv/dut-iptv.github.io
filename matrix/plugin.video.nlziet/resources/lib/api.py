@@ -176,40 +176,15 @@ class API(object):
         self._cookies = ''
         self._session = Session(cookies_key='_cookies')
 
-        login_url = '{base_url}/account/login'.format(base_url=CONST_BASE_URL)
-
-        resp = self.download(url=login_url, type="get", code=None, data=None, json_data=False, data_return=True, return_json=False, retry=retry, check_data=True, allow_redirects=True)
-
-        if resp.status_code != 200 and resp.status_code != 302:
-            if self._debug_mode:
-                log.debug('Failure to retrieve expected data')
-                log.debug('Execution Done: api.login')
-
-            gui.ok(message=_.LOGIN_ERROR, heading=_.LOGIN_ERROR_TITLE)
-            self.clear_session()
-            return False
-
-        resp.encoding = 'utf-8'
-        frmtoken = re.findall(r'name=\"__RequestVerificationToken\"\s+type=\"hidden\"\s+value=\"([\S]*)\"', resp.text)
-        frmaction = re.findall(r'form\s+action=\"([\S]*)\"', resp.text)
-
-        login_url2 = '{base_url}{action}'.format(base_url=CONST_BASE_URL, action=frmaction[0])
+        login_url = '{base_url}/account/applogin'.format(base_url=CONST_BASE_URL)
 
         session_post_data = {
-            "__RequestVerificationToken": frmtoken[0],
-            "PasswordLogin.Email": username,
-            "PasswordLogin.Password": password,
-            'RememberMe': 'true',
-            'RememberMe': 'false',
+            "username": username,
+            "password": password,
         }
 
         headers = {
-            'content-type': 'application/x-www-form-urlencoded',
-            'Origin': CONST_BASE_URL,
-            'Referer': '{base_url}/account/login'.format(base_url=CONST_BASE_URL),
-            'sec-fetch-dest': 'document',
-            'sec-fetch-mode': 'navigate',
-            'sec-fetch-user': '?1'
+            'content-type': 'application/x-www-form-urlencoded'
         }
 
         self._session = Session(headers=headers, cookies_key='_cookies')
@@ -219,7 +194,7 @@ class API(object):
             log.debug('Request Session Headers')
             log.debug(self._session.headers)
 
-        resp = self.download(url=login_url2, type="post", code=None, data=session_post_data, json_data=False, data_return=True, return_json=False, retry=retry, check_data=True, allow_redirects=True)
+        resp = self.download(url=login_url, type="post", code=None, data=session_post_data, json_data=False, data_return=True, return_json=False, retry=retry, check_data=True, allow_redirects=True)
 
         if (resp.status_code != 200 and resp.status_code != 302):
             if self._debug_mode:
@@ -272,7 +247,7 @@ class API(object):
         settings.set(key='_resource_key', value=resource_key)
         settings.set(key='_resource_secret', value=resource_secret)
 
-        resp = self.download(url='{base_url}/OAuth/Authorize?layout=framed&oauth_token={token}'.format(base_url=CONST_BASE_URL, token=resource_key), type="get", code=None, data=None, json_data=False, data_return=True, return_json=False, retry=False, check_data=True, allow_redirects=False)
+        resp = self.download(url='{base_url}/OAuth/Authorize?oauth_token={token}'.format(base_url=CONST_BASE_URL, token=resource_key), type="get", code=None, data=None, json_data=False, data_return=True, return_json=False, retry=False, check_data=True, allow_redirects=False)
 
         if (resp.status_code != 302):
             if self._debug_mode:
