@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.executable.dutiptv" name="Dut-IPTV Simple IPTV Connector" provider-name="Anon" version="1.2.5+matrix.1">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="pvr.iptvsimple" version="3.8.4"/>
+    <import addon="inputstream.adaptive" version="2.4.4"/>
+    <import addon="script.module.fuzzywuzzy" version="0.17.0+matrix.1"/>
+    <import addon="script.module.pycryptodome" version="3.4.3"/>
+    <import addon="script.module.pytz" version="2014.2"/>
+    <import addon="script.module.requests" version="2.22.0"/>
+    <import addon="service.dutiptv.proxy" version="1.2.5+matrix.1"/>
+    <import addon="script.module.inputstreamhelper" version="0.5.7"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="service.py"/>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Create a merged Playlist/EPG using the Dut-IPTV addons for use in Simple IPTV</summary>
+    <summary lang="nl_NL">Maak een samengestelde afspeellijst/EPG middels de Dut-IPTV addons voor gebruik in Simple IPTV</summary>
+    <description lang="en_GB">Create a merged Playlist/EPG from the Dut-IPTV addons for use in Simple IPTV</description>
+    <description lang="nl_NL">Maak een samengestelde afspeellijst/EPG middels de Dut-IPTV addons voor gebruik in Simple IPTV</description>
+    <reuselanguageinvoker>true</reuselanguageinvoker>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="repository.anon.iptvbeta" name="Dutch IPTV Beta Repository" version="1.5.0" provider-name="Anon">
+  <requires>
+    <import addon="xbmc.addon" version="12.0.0"/>
+  </requires>
+  <extension point="xbmc.addon.repository" name="Dutch IPTV Beta Repository">
+    <dir minversion="19.0.0">
+      <info compressed="false">https://dut-iptv.github.io/beta/matrix/addons.xml</info>
+      <checksum>https://dut-iptv.github.io/beta/matrix/addons.xml.md5</checksum>
+      <datadir zip="true">https://dut-iptv.github.io/beta/matrix/</datadir>
+      <hashes>false</hashes>
+      <artdir>https://dut-iptv.github.io/beta/matrix/</artdir>
+    </dir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Dutch IPTV (CanalDigitaal, NLZiet, KPN, Telenet (BE), Telfort, T-Mobile, Videoland, XS4All, Ziggo) repository</summary>
+    <description lang="en">Dutch IPTV (CanalDigitaal, NLZiet, KPN, Telenet (BE), Telfort, T-Mobile, Videoland, XS4All, Ziggo) repository</description>
+    <summary lang="nl">Repository voor Nederlandse IPTV (CanalDigitaal, NLZiet, KPN, Telenet (BE), Telfort, T-Mobile, Videoland, XS4All, Ziggo)</summary>
+    <description lang="nl">Repository voor Nederlandse IPTV (CanalDigitaal, NLZiet, KPN, Telenet (BE), Telfort, T-Mobile, Videoland, XS4All, Ziggo)</description>
+    <platform>all</platform>
+  </extension>
+</addon>
