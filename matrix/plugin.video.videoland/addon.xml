@@ -3,6 +3,7 @@
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="inputstream.adaptive" version="2.4.4"/>
+    <import addon="script.module.inputstreamhelper" version="0.5.8"/>
     <import addon="script.module.fuzzywuzzy" version="0.17.0+matrix.1"/>
     <import addon="script.module.pycryptodome" version="3.4.3"/>
     <import addon="script.module.pytz" version="2014.2"/>
